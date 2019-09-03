@@ -21,19 +21,30 @@ Exemplo:
 
 ### Seletores
 
-Os seletores determinam quais elementos na árvore de DOM serão estilizados pelas propriedades definidas. Eles podem ser:
+Os seletores determinam quais elementos na árvore de DOM serão estilizados pelas propriedades definidas.
 
-- Elementos HTML
-- Classes
-- IDs
-- Atributo
-
-Exemplo:
+Exemplos:
 
 ```css
 .titulo {
   /* ... */
 }
+
+[aria-hidden] {
+  /* ... */
+}
 ```
 
 ### Propriedades
+
+As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mais declaração de propriedades.
+
+Exemplo:
+
+```css
+/* algum-seletor */
+ {
+  background: #f1f1f1;
+  color: #333;
+}
+```
