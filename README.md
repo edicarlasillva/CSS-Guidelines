@@ -8,14 +8,14 @@ Uma abordagem para escrever CSS gerenciável e escalável.
 
 ### Regra
 
-Regra é o nome dado ao seletor (ou grupo de seletores) acompanhados de um grupo de propriedades com seus respectivos valores.
+Uma "regra" de CSS sempre começa com um "seletor" (ou grupo de seletores) que define a quais elementos HTML ele se aplica. Após o seletor, temos um bloco de declarações de "propriedades" e seus respectivos valores.
 
 Exemplo:
 
 ```css
-.titulo {
-  font-size: 18px;
-  line-height: 1.2;
+.header {
+  color: #414141;               
+  background-color: #EEEEEE;   
 }
 ```
 
