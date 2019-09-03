@@ -47,3 +47,16 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
   color: #e18728;
 }
 ```
+
+## CSS
+
+### Formato
+
+- Use (2 espaços) para identação.
+- Prefira dashes `(-)` no lugar de camelCasing em nomes de classes.
+- Não use seletores `ID`.
+- Quando usar múltiplos seletores em uma regra, coloque cada um em uma linha.
+- Coloque um espaço antes da abertura de chaves `{`.
+- Em propriedades, coloque um espaço depois, mas não antes do caractere `:` (dois-pontos).
+- Coloque chave de fechamento `}` em uma nova linha.
+- Coloque linhas em branco entre declarações de regra.
