@@ -52,7 +52,7 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 
 ### Formato
 
-- Use (2 espaços) para identação.
+- Use 2 espaços para identação.
 - Prefira dashes `(-)` no lugar de camelCasing em nomes de classes.
 - Não use seletores `ID`.
 - Quando usar múltiplos seletores em uma regra, coloque cada um em uma linha.
