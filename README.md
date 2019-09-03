@@ -26,7 +26,7 @@ Os seletores determinam quais elementos na árvore de DOM serão estilizados pel
 Exemplos:
 
 ```css
-.titulo {
+.title {
   /* ... */
 }
 
@@ -42,7 +42,7 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 Exemplo:
 
 ```css
-/* algum-seletor */ {
+/* some selector */ {
   background: #f1f1f1;
   color: #e18728;
 }
