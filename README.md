@@ -26,6 +26,7 @@ Os seletores determinam quais elementos na árvore de DOM serão estilizados pel
 - Elementos HTML
 - Classes
 - IDs
+- Atributo
 
 Exemplo:
 
