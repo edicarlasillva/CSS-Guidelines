@@ -42,9 +42,8 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 Exemplo:
 
 ```css
-/* algum-seletor */
- {
+/* algum-seletor */ {
   background: #f1f1f1;
-  color: #333;
+  color: #e18728;
 }
 ```
