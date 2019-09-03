@@ -10,7 +10,7 @@ Uma abordagem para escrever CSS gerenciável e escalável.
 
 Uma "regra" de CSS sempre começa com um "seletor" (ou grupo de seletores) que define a quais elementos HTML ele se aplica. Após o seletor, temos um bloco de declarações de "propriedades" e seus respectivos valores.
 
-Exemplo:
+**Exemplo:**
 
 ```css
 .header {
@@ -23,7 +23,7 @@ Exemplo:
 
 Os seletores determinam quais elementos na árvore de DOM serão estilizados pelas propriedades definidas.
 
-Exemplos:
+**Exemplos:**
 
 ```css
 .title {
@@ -39,7 +39,7 @@ Exemplos:
 
 As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mais declaração de propriedades.
 
-Exemplo:
+**Exemplo:**
 
 ```css
 /* some selector */ {
