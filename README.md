@@ -60,3 +60,17 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 - Em propriedades, coloque um espaço depois, mas não antes do caractere `:` (dois-pontos).
 - Coloque chave de fechamento `}` em uma nova linha.
 - Coloque linhas em branco entre declarações de regra.
+
+**Exemplo:**
+
+```css
+.btn {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.btn:disabled,
+.btn.btn-disabled {
+  // ...
+}
+```
