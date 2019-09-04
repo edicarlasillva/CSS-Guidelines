@@ -76,3 +76,12 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 ```
 
 ### Comentários
+
+- Deixe um comentário sempre que o trecho não seja óbvio apenas a partir do código
+- Prefira comentários em uma única linha
+
+## BEM
+
+A metodologia Block, Element, Modifier (comumente referida como BEM ) é uma convenção de nomenclatura popular para classes em HTML e CSS. Desenvolvido pela equipe da Yandex, seu objetivo é ajudar os desenvolvedores a entender melhor o relacionamento entre o HTML e o CSS em um determinado projeto.
+
+- [BEM 101](https://css-tricks.com/bem-101/)
