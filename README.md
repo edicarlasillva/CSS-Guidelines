@@ -122,7 +122,7 @@ Nos casos em que um conjunto de regras inclui apenas uma declaração, considera
 
 ### Notação abreviada
 
-Limite o uso da declaração abreviada para instâncias em que você deve definir explicitamente todos os valores disponíveis. As propriedades de taquigrafia* frequentemente usadas em excesso incluem:
+Limitar o uso da declaração abreviada para instâncias em que você deve definir explicitamente todos os valores disponíveis. As propriedades de taquigrafia* frequentemente usadas em excesso incluem:
 
 - `padding`
 - `margin`
