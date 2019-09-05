@@ -62,16 +62,16 @@ As propriedades são pares de chave-valor e definem o visual para cada "seletor"
 
 ### Sintaxe
 
-- Use 2 espaços para indentação.
+- Usar 2 espaços para indentação.
 - Ao agrupar seletores, mantenha-os em linhas individuais.
-- Para maior legibilidade, inclua um espaço antes da chave de abertura dos blocos de declaração e em uma nova linha a chave de fechamento.
-- Inclua um espaço depois `:` para cada declaração.
-- Finalize todas as declarações com ponto e vírgula. A última declaração é opcional, mas seu código é mais suscetível a erros sem ele.
-- Use todos os valores hexadecimais em minúsculo, por exemplo `#f1f1f1`.
-- Use valores hexadecimais abreviados quando disponíveis, por exemplo, `#fff` em vez de `#ffffff`.
-- Cite valores de atributo em seletores, por exemplo `input[type="text"]`.
-- Evite especificar unidades para valores zero, por exemplo, `margin: 0;` em vez de `margin: 0px;`.
-- Não use seletores `ID` para estilos.
+- Para melhor legibilidade, inclua um espaço antes da chave de abertura dos blocos de declaração e em uma nova linha a chave de fechamento.
+- Incluir um espaço depois `:` para cada declaração.
+- Finalizar todas as declarações com ponto e vírgula. A última declaração é opcional, mas seu código é mais suscetível a erros sem ele.
+- Usar todos os valores hexadecimais em minúsculo, por exemplo `#f1f1f1`.
+- Usar valores hexadecimais abreviados quando disponíveis, por exemplo, `#fff` em vez de `#ffffff`.
+- Citar valores de atributo em seletores, por exemplo `input[type="text"]`.
+- Evitar especificar unidades para valores zero, por exemplo, `margin: 0;` em vez de `margin: 0px;`.
+- Não usar seletores `ID` para estilos.
 
 **Exemplo:**
 
