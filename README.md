@@ -185,7 +185,7 @@ Verifique se o seu código é descritivo, bem comentado e acessível por outras 
 .tweet-header { ... }
 ```
 
-### BEM
+### Metodologia BEM CSS
 
 A metodologia Block, Element, Modifier (comumente referida como BEM ) é uma convenção de nomenclatura popular para classes em HTML e CSS. Desenvolvido pela equipe da Yandex, seu objetivo é ajudar os desenvolvedores a entender melhor o relacionamento entre o HTML e o CSS em um determinado projeto.
 
