@@ -169,7 +169,7 @@ Verifique se o seu código é descritivo, bem comentado e acessível por outras 
 
 ### Nomes de classes
 
-- Mantenha as classes em minúsculas e use traços (kebab-case), por exemplo, `.btn-danger`. Não use camelCase ou UpperCamelCase.
+- Mantenha as classes em minúsculas e use traços (kebab-case), por exemplo, `.btn-danger`. Não use UpperCamelCase ou lowerCamelCase.
 - Evite notações abreviadas e sem significado. `.btn` é útil para o botão, mas `.b` não significa nada.
 - Mantenha as classes curtas e autoexplicativas.
 
