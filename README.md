@@ -1,6 +1,6 @@
-# Guia de estilo CSS
+# Guia de código CSS
 
-Uma abordagem para escrever CSS gerenciável e escalável.
+Padrões para escrever CSS consistente, flexível e escalável.
 
 ## Tabela de conteúdos
 
@@ -61,14 +61,18 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 
 ### Formato
 
-- Use 2 espaços para identação.
-- Prefira dashes `(-)` no lugar de camelCasing em nomes de classes.
+- Use 2 espaços para indentação.
+- Ao agrupar seletores, mantenha os seletores individuais em uma única linha.
+- Inclua um espaço antes da chave de abertura dos blocos de declaração para legibilidade.
+- Coloque chaves de fechamento de blocos de declaração em uma nova linha.
+- Inclua um espaço depois `:` para cada declaração.
+- Finalize todas as declarações com ponto e vírgula. A última declaração é opcional, mas seu código é mais suscetível a erros sem ele.
+- Use todos os valores hexadecimais em minúsculo, por exemplo `#f1f1f1`.
+- Use valores hexadecimais abreviados quando disponíveis, por exemplo, `#fff` em vez de `#ffffff`.
+- Cite valores de atributo em seletores, por exemplo `input[type="text"]`.
+- Evite especificar unidades para valores zero, por exemplo, `margin: 0;` em vez de `margin: 0px;`.
+- Use dashes `(-)` no lugar de camelCasing em nomes de classes.
 - Não use seletores `ID`.
-- Quando usar múltiplos seletores em uma regra, coloque cada um em uma linha.
-- Coloque um espaço antes da abertura de chaves `{`.
-- Em propriedades, coloque um espaço depois, mas não antes do caractere `:` (dois-pontos).
-- Coloque chave de fechamento `}` em uma nova linha.
-- Coloque linhas em branco entre declarações de regra.
 
 **Exemplo:**
 
@@ -105,6 +109,17 @@ A convenção de nomenclatura segue o padrão abaixo:
 .block--modifier {
 
 }
+```
+
+**Exemplo:**
+
+```html
+<div class="gallery">
+  <h1 class="gallery__title">Gallery</h1>
+  <img class="gallery__image gallery__image--large" />
+  <img class="gallery__image" />
+  <img class="gallery__image" />
+</div>
 ```
 
 - [Artigo sobre o BEM](https://css-tricks.com/bem-101/)
