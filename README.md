@@ -220,4 +220,4 @@ A convenção de nomenclatura segue o padrão abaixo:
 
 ## Referência
 
-Muito inspirado por [CodeGuide](https://codeguide.co/#css-syntax)
+Muito inspirado por [CodeGuide](https://codeguide.co/#css-syntax).
