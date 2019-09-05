@@ -9,7 +9,8 @@ Padrões para escrever CSS consistente, flexível e escalável.
   - [Seletores](#seletores)
   - [Propriedades](#propriedades)
 - [CSS](#css)
-  - [Formato](#formato)
+  - [Sintaxe](#sintaxe)
+  - [Notação abreviada](#notação-abreviada)
   - [Comentários](comentarios)
 - [BEM](#bem)
 
@@ -59,7 +60,7 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 
 ## CSS
 
-### Formato
+### Sintaxe
 
 - Use 2 espaços para indentação.
 - Ao agrupar seletores, mantenha os seletores individuais em uma única linha.
@@ -77,14 +78,52 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 **Exemplo:**
 
 ```css
-.btn {
-  border-radius: 50%;
-  border: 2px solid white;
+/* Bad CSS */
+.selector, .selector-secondary, .selector[type=text] {
+  padding:15px;
+  margin:0px 0px 15px;
+  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
 }
 
-.btn:disabled,
-.btn.btn-disabled {
-  /* ... */
+/* Good CSS */
+.selector,
+.selector-secondary,
+.selector[type="text"] {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
+}
+```
+
+### Notação abreviada
+
+Limite o uso da declaração abreviada para instâncias em que você deve definir explicitamente todos os valores disponíveis. As propriedades de taquigrafia frequentemente usadas em excesso incluem:
+
+- `padding`
+- `margin`
+- `font`
+- `background`
+- `border`
+- `border-radius`
+
+```css
+/* Bad example */
+.element {
+  margin: 0 0 10px;
+  background: #000;
+  background: url("image.jpg");
+  border-radius: 3px 3px 0 0;
+}
+
+/* Good example */
+.element {
+  margin-bottom: 10px;
+  background-color: #000;
+  background-image: url("image.jpg");
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 ```
 
@@ -92,6 +131,20 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 
 - Deixe um comentário sempre que o trecho não seja óbvio apenas a partir do código
 - Prefira comentários em uma única linha
+
+```css
+/* Bad example */
+/* Modal header */
+.modal-header {
+  ...
+}
+
+/* Good example */
+/* Wrapping element for .modal-title and .modal-close */
+.modal-header {
+  ...
+}
+```
 
 ## BEM
 
@@ -101,25 +154,36 @@ A convenção de nomenclatura segue o padrão abaixo:
 
 ```css
 .block {
-
+  ...
 }
+
 .block__element {
-
+  ...
 }
-.block--modifier {
 
+.block--modifier {
+  ...
 }
 ```
 
 **Exemplo:**
 
-```html
-<div class="gallery">
-  <h1 class="gallery__title">Gallery</h1>
-  <img class="gallery__image gallery__image--large" />
-  <img class="gallery__image" />
-  <img class="gallery__image" />
-</div>
+```css
+.gallery {
+  ...
+}
+
+.gallery__title {
+  ...
+}
+
+.gallery__image {
+  ...
+}
+
+.gallery__image--large {
+  ...
+}
 ```
 
 - [Artigo sobre o BEM](https://css-tricks.com/bem-101/)
