@@ -170,9 +170,9 @@ Verificar se o código é descritivo, bem comentado e acessível por outras pess
 
 ### Nomes de classes
 
-- Mantenha as classes em minúsculas e use traços (kebab-case), por exemplo, `.btn-danger`. Não use UpperCamelCase ou lowerCamelCase.
-- Evite notações abreviadas e sem significado. `.btn` é útil para o botão, mas `.b` não significa nada.
-- Mantenha as classes curtas e autoexplicativas.
+- Manter as classes em minúsculas e use traços (kebab-case), por exemplo, `.btn-danger`. Não usar UpperCamelCase ou lowerCamelCase.
+- Evitar notações abreviadas e sem significado. `.btn` é útil para o botão, mas `.b` não significa nada.
+- Manter as classes curtas e autoexplicativas.
 
 ```css
 /* Bad example */
@@ -220,4 +220,4 @@ A convenção de nomenclatura segue o padrão abaixo:
 
 ## Referência
 
-Muito inspirado por [CodeGuide](https://codeguide.co/#css-syntax).
+Inspirado por [CodeGuide](https://codeguide.co/#css-syntax).
