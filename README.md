@@ -149,7 +149,7 @@ Limite o uso da declaração abreviada para instâncias em que você deve defini
 }
 ```
 
-*Propriedades de taquigrafia são propriedades de CSS que lhe permitem definir simultaneamente os valores de várias outras propriedades de CSS. 
+*Propriedades de taquigrafia são propriedades de CSS que lhe permitem definir simultaneamente os valores de várias outras propriedades de CSS.
 
 ### Comentários
 
@@ -170,7 +170,7 @@ Verifique se o seu código é descritivo, bem comentado e acessível por outras 
 ### Nomes de classes
 
 - Mantenha as classes em minúsculas e use traços (não sublinhados ou camelCase), por exemplo, `.btn-danger`.
-- Evite notações abreviadas e sem significado. `.btn` é útil para o botão , mas `.b` não significa nada.
+- Evite notações abreviadas e sem significado. `.btn` é útil para o botão, mas `.b` não significa nada.
 - Mantenha as classes curtas e autoexplicativas.
 
 ```css
