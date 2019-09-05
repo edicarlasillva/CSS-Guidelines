@@ -97,7 +97,7 @@ As propriedades são pares de chave-valor e definem o visual para cada "seletor"
 
 ### Declarações únicas
 
-Nos casos em que um conjunto de regras inclui apenas uma declaração, considere remover quebras de linha para facilitar a leitura e editar mais rapidamente. Lembre-se que para qualquer regra definida com várias declarações deve ser dividida em linhas separadas.
+Nos casos em que um conjunto de regras inclui apenas uma declaração, considerar remover quebra de linha para facilitar a leitura e editar mais rapidamente. Lembrando que para qualquer regra definida com várias declarações deve ser dividida em linhas separadas.
 
 **Exemplo:**
 
