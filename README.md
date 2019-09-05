@@ -121,7 +121,7 @@ Nos casos em que um conjunto de regras inclui apenas uma declaração, considere
 
 ### Notação abreviada
 
-Limite o uso da declaração abreviada para instâncias em que você deve definir explicitamente todos os valores disponíveis. As propriedades de taquigrafia frequentemente usadas em excesso incluem:
+Limite o uso da declaração abreviada para instâncias em que você deve definir explicitamente todos os valores disponíveis. As propriedades de taquigrafia* frequentemente usadas em excesso incluem:
 
 - `padding`
 - `margin`
@@ -148,6 +148,8 @@ Limite o uso da declaração abreviada para instâncias em que você deve defini
   border-top-right-radius: 3px;
 }
 ```
+
+*Propriedades de taquigrafia são propriedades de CSS que lhe permitem definir simultaneamente os valores de várias outras propriedades de CSS. 
 
 ### Comentários
 
