@@ -165,7 +165,7 @@ Verifique se o seu código é descritivo, bem comentado e acessível por outras 
 
 ## Nomenclatura
 
-## Nomes de classes
+### Nomes de classes
 
 - Mantenha as classes em minúsculas e use traços (não sublinhados ou camelCase), por exemplo, `.btn-danger`.
 - Evite notações abreviadas e sem significado. `.btn` é útil para o botão , mas `.b` não significa nada.
