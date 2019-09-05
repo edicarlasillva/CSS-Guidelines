@@ -12,7 +12,9 @@ Padrões para escrever CSS consistente, flexível e escalável.
   - [Sintaxe](#sintaxe)
   - [Notação abreviada](#notação-abreviada)
   - [Comentários](comentarios)
-- [BEM](#bem)
+- [Nomenclatura](#nomenclatura)
+  - [Nomes de classes](#nomes-de-classes)
+  - [BEM](#bem)
 
 ## Terminologia
 
@@ -36,13 +38,9 @@ Os seletores determinam quais elementos na árvore de DOM serão estilizados pel
 **Exemplos:**
 
 ```css
-.title {
-  /* ... */
-}
+.title { ... }
 
-[aria-hidden] {
-  /* ... */
-}
+[aria-hidden] { ... }
 ```
 
 ### Propriedades
@@ -72,8 +70,7 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
 - Use valores hexadecimais abreviados quando disponíveis, por exemplo, `#fff` em vez de `#ffffff`.
 - Cite valores de atributo em seletores, por exemplo `input[type="text"]`.
 - Evite especificar unidades para valores zero, por exemplo, `margin: 0;` em vez de `margin: 0px;`.
-- Use dashes `(-)` no lugar de camelCasing em nomes de classes.
-- Não use seletores `ID`.
+- Não use seletores `ID` para estilos.
 
 **Exemplo:**
 
@@ -95,6 +92,30 @@ As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mai
   background-color: rgba(0,0,0,.5);
   box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
 }
+```
+
+### Declarações únicas
+
+Nos casos em que um conjunto de regras inclui apenas uma declaração, considere remover quebras de linha para facilitar a leitura e editar mais rapidamente. Lembre-se que para qualquer regra definida com várias declarações deve ser dividida em linhas separadas.
+
+**Exemplo:**
+
+```css
+/* Single declarations on one line */
+.span1 { width: 60px; }
+.span2 { width: 140px; }
+.span3 { width: 220px; }
+
+/* Multiple declarations, one per line */
+.sprite {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url("../img/sprite.png");
+}
+.icon           { background-position: 0 0; }
+.icon-home      { background-position: 0 -20px; }
+.icon-account   { background-position: 0 -40px; }
 ```
 
 ### Notação abreviada
@@ -129,61 +150,67 @@ Limite o uso da declaração abreviada para instâncias em que você deve defini
 
 ### Comentários
 
-- Deixe um comentário sempre que o trecho não seja óbvio apenas a partir do código
-- Prefira comentários em uma única linha
+Verifique se o seu código é descritivo, bem comentado e acessível por outras pessoas. Escreva frases completas para comentários maiores (descrevendo exatamente o componente) e frases sucintas para notas gerais.
 
 ```css
 /* Bad example */
 /* Modal header */
-.modal-header {
-  ...
-}
+.modal-header { ... }
 
 /* Good example */
 /* Wrapping element for .modal-title and .modal-close */
-.modal-header {
-  ...
-}
+.modal-header { ... }
 ```
 
-## BEM
+## Nomenclatura
+
+## Nomes de classes
+
+- Mantenha as classes em minúsculas e use traços (não sublinhados ou camelCase), por exemplo, `.btn-danger`.
+- Evite notações abreviadas e sem significado. `.btn` é útil para o botão , mas `.b` não significa nada.
+- Mantenha as classes curtas e autoexplicativas.
+
+```css
+/* Bad example */
+.t {
+  ...
+}
+.red { ... }
+.header { ... }
+
+/* Good example */
+.tweet { ... }
+.important { ... }
+.tweet-header { ... }
+```
+
+### BEM
 
 A metodologia Block, Element, Modifier (comumente referida como BEM ) é uma convenção de nomenclatura popular para classes em HTML e CSS. Desenvolvido pela equipe da Yandex, seu objetivo é ajudar os desenvolvedores a entender melhor o relacionamento entre o HTML e o CSS em um determinado projeto.
 
 A convenção de nomenclatura segue o padrão abaixo:
 
 ```css
-.block {
-  ...
-}
+.block { ... }
 
-.block__element {
-  ...
-}
+.block__element { ... }
 
-.block--modifier {
-  ...
-}
+.block--modifier { ... }
 ```
 
 **Exemplo:**
 
 ```css
-.gallery {
-  ...
-}
+/* Block */
+.gallery { ... }
 
-.gallery__title {
-  ...
-}
+/* Element */
+.gallery__title { ... }
 
-.gallery__image {
-  ...
-}
+.gallery__image { ... }
 
-.gallery__image--large {
-  ...
-}
+/* Modifier */
+.gallery__image--large { ... }
 ```
 
 - [Artigo sobre o BEM](https://css-tricks.com/bem-101/)
