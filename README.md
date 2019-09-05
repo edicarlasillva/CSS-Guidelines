@@ -10,11 +10,12 @@ Padrões para escrever CSS consistente, flexível e escalável.
   - [Propriedades](#propriedades)
 - [CSS](#css)
   - [Sintaxe](#sintaxe)
+  - [Declarações únicas](#declaracoes-unicas)
   - [Notação abreviada](#notação-abreviada)
   - [Comentários](comentarios)
 - [Nomenclatura](#nomenclatura)
   - [Nomes de classes](#nomes-de-classes)
-  - [BEM](#bem)
+  - [Metodologia BEM CSS](#metodologia-bem-css)
 
 ## Terminologia
 
