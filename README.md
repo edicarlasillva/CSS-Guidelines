@@ -62,7 +62,7 @@ As propriedades são pares de chave-valor e definem o visual para cada "seletor"
 ### Sintaxe
 
 - Use 2 espaços para indentação.
-- Ao agrupar seletores, mantenha os seletores individuais em uma única linha.
+- Ao agrupar seletores, mantenha-os em linhas individuais.
 - Inclua um espaço antes da chave de abertura dos blocos de declaração para legibilidade.
 - Coloque chaves de fechamento de blocos de declaração em uma nova linha.
 - Inclua um espaço depois `:` para cada declaração.
