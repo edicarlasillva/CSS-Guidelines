@@ -16,6 +16,7 @@ Padrões para escrever CSS consistente, flexível e escalável.
 - [Nomenclatura](#nomenclatura)
   - [Nomes de classes](#nomes-de-classes)
   - [Metodologia BEM CSS](#metodologia-bem-css)
+- [Referência](#referência)
 
 ## Terminologia
 
@@ -216,3 +217,7 @@ A convenção de nomenclatura segue o padrão abaixo:
 ```
 
 - [Artigo sobre o BEM](https://css-tricks.com/bem-101/)
+
+## Referência
+
+Muito inspirado por [CodeGuide](https://codeguide.co/#css-syntax)
