@@ -154,7 +154,7 @@ Limitar o uso da declaração abreviada para instâncias em que você deve defin
 
 ### Comentários
 
-Verificar se o código é descritivo, bem comentado e acessível por outras pessoas. Escreva frases completas para comentários maiores (descrevendo exatamente o componente) e frases sucintas para notas gerais.
+Verificar se o código é descritivo, bem comentado e acessível por outras pessoas. Escrever frases completas para comentários maiores (descrevendo exatamente o componente) e frases sucintas para notas gerais.
 
 ```css
 /* Bad example */
