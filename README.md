@@ -63,8 +63,7 @@ As propriedades são pares de chave-valor e definem o visual para cada "seletor"
 
 - Use 2 espaços para indentação.
 - Ao agrupar seletores, mantenha-os em linhas individuais.
-- Inclua um espaço antes da chave de abertura dos blocos de declaração para legibilidade.
-- Coloque chaves de fechamento de blocos de declaração em uma nova linha.
+- Para maior legibilidade, inclua um espaço antes da chave de abertura dos blocos de declaração e em uma nova linha a chave de fechamento.
 - Inclua um espaço depois `:` para cada declaração.
 - Finalize todas as declarações com ponto e vírgula. A última declaração é opcional, mas seu código é mais suscetível a erros sem ele.
 - Use todos os valores hexadecimais em minúsculo, por exemplo `#f1f1f1`.
