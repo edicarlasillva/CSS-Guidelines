@@ -196,9 +196,7 @@ A convenção de nomenclatura segue o padrão abaixo:
 
 ```css
 .block { ... }
-
 .block__element { ... }
-
 .block--modifier { ... }
 ```
 
