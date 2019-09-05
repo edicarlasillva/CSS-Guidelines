@@ -21,7 +21,7 @@ Padrões para escrever CSS consistente, flexível e escalável.
 
 ### Regra
 
-Uma "regra" de CSS sempre começa com um "seletor" (ou grupo de seletores) que define a quais elementos HTML ele se aplica. Após o seletor, temos um bloco de declarações de "propriedades" e seus respectivos valores.
+Uma "declaração de regra" sempre começa com um "seletor" (ou grupo de seletores) que define a quais elementos HTML ela se aplica. Após o seletor, temos um grupo de "propriedades" e seus respectivos valores.
 
 **Exemplo:**
 
@@ -34,7 +34,7 @@ Uma "regra" de CSS sempre começa com um "seletor" (ou grupo de seletores) que d
 
 ### Seletores
 
-Os seletores determinam quais elementos na árvore de DOM serão estilizados pelas propriedades definidas.
+Os seletores determinam quais elementos na árvore DOM serão estilizados pelas propriedades definidas.
 
 **Exemplos:**
 
@@ -46,7 +46,7 @@ Os seletores determinam quais elementos na árvore de DOM serão estilizados pel
 
 ### Propriedades
 
-As propriedades são pares de chave-valor, onde uma regra pode conter uma ou mais declaração de propriedades.
+As propriedades são pares de chave-valor e definem o visual para cada "seletor". Uma regra pode conter uma ou mais propriedades.
 
 **Exemplo:**
 
