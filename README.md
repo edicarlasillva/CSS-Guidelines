@@ -178,6 +178,7 @@ Verifique se o seu código é descritivo, bem comentado e acessível por outras 
 .t {
   ...
 }
+
 .red { ... }
 .header { ... }
 
